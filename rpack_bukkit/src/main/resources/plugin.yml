@@ -1,0 +1,8 @@
+name: RPack
+main: me.bomb.rpack.bukkit.RPackBukkit
+version: ${revision}
+api-version: 1.13
+author: Bomb
+folia-supported: true
+commands:
+  loadpack:
