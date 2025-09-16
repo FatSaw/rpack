@@ -1,0 +1,35 @@
+replacelang:
+ be_by: ru_ru
+localisation:
+ default:
+  loadpack:
+   usage: [{"color":"#cccccc","text":"Usage: "},{"color":"#cccccc","italic":true,"text":"/loadpack <player> <packid>"}]
+   nopermission: {"color":"#ee2222","text":"No permission"}
+   nopermissionother: {"color":"#ee2222","text":"No permission"}
+   noconsoleselector: {"color":"#ee2222","text":"This selector unavilable from console"}
+   targetoffline: {"color":"#ee2222","text":"Target player offline"}
+   processing: [{"color":"#22ee22","text":"Processing "},{"color":"#eeee22","text":"%packid%"},{"color":"#22ee22","text":" ..."}]
+   nopack: [{"color":"#ee2222","text":"Resourcepack "},{"color":"#eeee22","text":"%packid%"},{"color":"#ee2222","text":" not exsit"}]
+   loaderunavilable: {"color":"#ee2222","text":"Loader temporarily unavilable"}
+   success:
+    dispatched: [{"color":"#22ee22","text":"Loaded resourcepack "},{"color":"#eeee22","text":"%packid%"}]
+    updated: [{"color":"#22ee22","text":"Updated resourcepack "},{"color":"#eeee22","text":"%packid%"}]
+    deleted: [{"color":"#22ee22","text":"Deleted resourcepack "},{"color":"#eeee22","text":"%packid%"}]
+   unavilableselector:
+    near: {"color":"#ee2222","text":"Selector @p unavilable for this source"}
+    random: {"color":"#ee2222","text":"Selector @r unavilable for this source"}
+    all: {"color":"#ee2222","text":"Selector @a unavilable for this source"}
+ ru_ru:
+  loadpack:
+   usage: [{"color":"#cccccc","text":"Использование: "},{"color":"#cccccc","italic":true,"text":"/loadpack <player> <packid>"}]
+   nopermission: {"color":"#ee2222","text":"Нет прав"}
+   nopermissionother: {"color":"#ee2222","text":"Нет прав"}
+   noconsoleselector: {"color":"#ee2222","text":"Этот селектор недоступен из консоли"}
+   targetoffline: {"color":"#ee2222","text":"Целевой игрок не в сети"}
+   processing: [{"color":"#22ee22","text":"Обработка "},{"color":"#eeee22","text":"%packid%"},{"color":"#22ee22","text":" ..."}]
+   nopack: [{"color":"#ee2222","text":"Ресурспак "},{"color":"#eeee22","text":"%packid%"},{"color":"#ee2222","text":" не существует"}]
+   loaderunavilable: {"color":"#ee2222","text":"Загрузчик временно недоступен"}
+   success:
+    dispatched: [{"color":"#22ee22","text":"Загружен ресурспак "},{"color":"#eeee22","text":"%packid%"}]
+    updated: [{"color":"#22ee22","text":"Обновлён ресурспак "},{"color":"#eeee22","text":"%packid%"}]
+    deleted: [{"color":"#22ee22","text":"Удалён ресурспак "},{"color":"#eeee22","text":"%packid%"}]

@@ -1,0 +1,35 @@
+replacelang:
+ be_by: ru_ru
+localisation:
+ default:
+  loadpack:
+   usage: [{"color":"gray","text":"Usage: "},{"color":"gray","italic":true,"text":"/loadpack <player> <packid>"}]
+   nopermission: {"color":"red","text":"No permission"}
+   nopermissionother: {"color":"red","text":"No permission"}
+   noconsoleselector: {"color":"red","text":"This selector unavilable from console"}
+   targetoffline: {"color":"red","text":"Target player offline"}
+   processing: [{"color":"green","text":"Processing "},{"color":"yellow","text":"%packid%"},{"color":"green","text":" ..."}]
+   nopack: [{"color":"red","text":"Resourcepack "},{"color":"yellow","text":"%packid%"},{"color":"red","text":" not exsit"}]
+   loaderunavilable: {"color":"red","text":"Loader temporarily unavilable"}
+   success:
+    dispatched: [{"color":"green","text":"Loaded resourcepack "},{"color":"yellow","text":"%packid%"}]
+    updated: [{"color":"green","text":"Updated resourcepack "},{"color":"yellow","text":"%packid%"}]
+    deleted: [{"color":"green","text":"Deleted resourcepack "},{"color":"yellow","text":"%packid%"}]
+   unavilableselector:
+    near: {"color":"red","text":"Selector @p unavilable for this source"}
+    random: {"color":"red","text":"Selector @r unavilable for this source"}
+    all: {"color":"red","text":"Selector @a unavilable for this source"}
+ ru_ru:
+  loadpack:
+   usage: [{"color":"gray","text":"Использование: "},{"color":"gray","italic":true,"text":"/loadpack <player> <packid>"}]
+   nopermission: {"color":"red","text":"Нет прав"}
+   nopermissionother: {"color":"red","text":"Нет прав"}
+   noconsoleselector: {"color":"red","text":"Этот селектор недоступен из консоли"}
+   targetoffline: {"color":"red","text":"Целевой игрок не в сети"}
+   processing: [{"color":"green","text":"Обработка "},{"color":"yellow","text":"%packid%"},{"color":"green","text":" ..."}]
+   nopack: [{"color":"red","text":"Ресурспак "},{"color":"yellow","text":"%packid%"},{"color":"red","text":" не существует"}]
+   loaderunavilable: {"color":"red","text":"Загрузчик временно недоступен"}
+   success:
+    dispatched: [{"color":"green","text":"Загружен ресурспак "},{"color":"yellow","text":"%packid%"}]
+    updated: [{"color":"green","text":"Обновлён ресурспак "},{"color":"yellow","text":"%packid%"}]
+    deleted: [{"color":"green","text":"Удалён ресурспак "},{"color":"yellow","text":"%packid%"}]

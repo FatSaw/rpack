@@ -1,0 +1,49 @@
+rpack:
+ #Use - set it to false if api mode used
+ use: true
+ #Usecmd - register commands
+ usecmd: true
+ #Host - '<protocol>://<ip or hostname>:<port>/', used to generate url for resourcepack download
+ host: http://127.0.0.1:25530/
+ server:
+  #Sendpack - server to send resourcepacks
+  sendpack:
+   #Interface ip, leave 0.0.0.0 to let system select interface
+   ip: 0.0.0.0
+   #Resourcepack server port
+   port: 25530
+   #Backlog - limit pending connections count, 0 - unlimited
+   backlog: 0
+   #Connect timeout (in ms)
+   timeout: 0
+   #Allow connection only from ips that connected to MC server (may not work if proxy server used)
+   strictaccess: true
+   #Wait acception - true resourcepack download start only after resourcepack status accepted recieved, false - resourcepack status ignored, blocked - auto
+   #waitacception: true
+   #Token salt - recomended to replace this by random generated if clientside caching used
+   tokensalt: PlaceHereARandomBase64StringIfClientCacheEnabled
+   cache:
+    #Serverside caching - store all packed resourcepacks in ram
+    server: true
+    #Clientside caching - store resourcepacks clientside (up to 10)
+    client: true
+  connect:
+   #Use - allow connect from other rpack instance
+   use: false
+   #Interface ip, leave 0.0.0.0 to let system select interface
+   ip: 0.0.0.0
+   tls:
+    #Use - use encrypted tls
+    use: false
+    path: connectcert.p12
+    password: passwordkey
+   #Server used on velocity by default
+   server:
+    #Remote client ip, leave 0.0.0.0 to allow connect from all ips
+    clientip: 0.0.0.0
+    #Server port
+    port: 25534
+    #Backlog - limit pending connections count, 0 - unlimited
+    backlog: 0
+    #Connect timeout (in ms)
+    timeout: 5000
