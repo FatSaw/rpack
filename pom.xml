@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>me.bomb</groupId>
+	<artifactId>rpack</artifactId>
+	<properties>
+		<project.build.sourceEncoding>ASCII</project.build.sourceEncoding>
+    	<project.reporting.outputEncoding>ASCII</project.reporting.outputEncoding>
+    	<revision>0.1</revision>
+  	</properties>
+	<version>${revision}</version>
+	<packaging>pom</packaging>
+	<modules>
+		<module>rpack_core</module>
+		<module>rpack_bukkit</module>
+		<module>rpack_velocity</module>
+	</modules>
+</project>
