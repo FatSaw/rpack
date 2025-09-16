@@ -1,0 +1,7 @@
+{
+    "id": "rpack",
+    "name": "RPack",
+    "version": "${revision}",
+    "authors": ["Bomb"],
+    "main": "me.bomb.rpack.velocity.RPackVelocity"
+}
