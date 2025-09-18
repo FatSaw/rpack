@@ -9,7 +9,7 @@
 - `./config.yml` - configuration file
 - `./lang.yml` - localisation file
 - `./Packs/` - packs directory
-- `./Packs/<pack_id>.zip` - playlist specific parent resourcepack file
+- `./Packs/<pack_id>.zip` - resourcepack file
 ## Commands:
 - `/loadpack @n <pack_id>` - update cache
 - `/loadpack <playername> <pack_id>` - loads resourcepack to player
